@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Airbnb Clone with NextJS App Directory
 
-## Getting Started
+![Copy of Fullstack Twitter Clone (8)](https://user-images.githubusercontent.com/23248726/229031522-64a49ad0-66f7-4ea8-94a8-f64a0bb56736.png);
 
-First, run the development server:
+# 💻 Diferenciais no projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+- [x] Construído com React, TypeScript e TailwindCSS
+- [x] Projeto Responsivo
+- [x] Requisição via Axios
+- [x] Criação de Animações
+- [x] Autenticação com Google e Github
+- [x] Calendários com react-date-range
+- [x] Image upload
+
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/104099580/231262735-adbff10d-7603-4ebb-85e5-4ad9ccdab7c2.gif)
+
+# 🚀 Tecnologias Utilizadas
+
+  ## FRONT-END:
+   - [x] Typescript
+   - [x] NextJS
+   - [x] Zustand
+   - [x] world-countries
+   - [x] axios
+   - [x] bcrypt
+   - [x] date-fns
+   - [x] query-string
+   - [x] react-leaflet
+   - [x] react-select
+   - [x] react-spinners
+   - [x] react-date-range
+   - [x] react-hook-form
+   - [x] react-hot-toast
+
+  #### 🎨 STYLES:
+   - [x] TailwindCSS
+   - [x] react-icons
+ 
+  ## BACK-END:
+  - [x] MongoDB
+  - [x] Prisma
+  - [x] Cloudinary CDN
+
+   ```sh
+   $ npx prisma db push;
+   ```
+
+# 📋 Instalação:
+
+### Web
+
+Para rodar localmente o web client Vite:
+```sh
+- Dê um pull neste projeto;
+- Instale todas as dependências com "npm i";
+- Crie um arquivo .env e configure as variáveis ambientes de acordo com o que está na sua máquina;
+- Utilize o comando: "npm run dev" e aproveite :D
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Backend
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Configure as variáveis ambientes de acordo com o que está na sua máquina:
+```sh
+DATABASE_URL=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+GITHUB_ID=
+GITHUB_SECRET=
+NEXTAUTH_SECRET=
+```
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
