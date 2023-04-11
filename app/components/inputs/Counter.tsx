@@ -10,7 +10,7 @@ interface CounterProps {
   onChange: (value: number) => void;
 }
 
-export function Counter({
+function Counter({
   title,
   subtitle,
   value,
@@ -59,3 +59,5 @@ export function Counter({
     </div>
    );
 }
+
+export default Counter;

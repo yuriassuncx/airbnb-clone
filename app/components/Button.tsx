@@ -11,7 +11,7 @@ interface ButtonProps {
   icon?: IconType;
 }
 
-export function Button({
+function Button({
   label,
   onClick,
   disabled,
@@ -38,3 +38,5 @@ export function Button({
     </button>
   )
 }
+
+export default Button;

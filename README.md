@@ -1,6 +1,8 @@
 # Airbnb Clone with NextJS App Directory
 
-![Copy of Fullstack Twitter Clone (8)](https://user-images.githubusercontent.com/23248726/229031522-64a49ad0-66f7-4ea8-94a8-f64a0bb56736.png);
+Wow! Mais um projeto concluído com sucesso após um intensivão de 8h: desta vez realizando um projeto FullStack, utilizando MongoDB, como banco de dados, Google e Github Authentication, Upload de Imagens com Cloudinary CDN, Prisma, Typescript, Zustand, Axios, TailwindCSS para estilização e a nova versão do NextJS - com o App Directory! O objetivo foi clonar o Airbnb😁
+
+![Copy of Fullstack Twitter Clone (8)](https://user-images.githubusercontent.com/23248726/229031522-64a49ad0-66f7-4ea8-94a8-f64a0bb56736.png)
 
 # 💻 Diferenciais no projeto
 

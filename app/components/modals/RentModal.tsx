@@ -6,11 +6,11 @@ import { useRentModal } from "@/app/hooks/useRentModal";
 import Modal from "./Modal";
 import { Heading } from "../Heading";
 import { categories } from "../navbar/Categories";
-import { CategoryInput } from "../inputs/CategoryInput";
+import CategoryInput from "../inputs/CategoryInput";
 import CountrySelect from "../inputs/CountrySelect";
-import { Counter } from "../inputs/Counter";
-import { ImageUpload } from "../inputs/ImageUpload";
-import { Input } from "../inputs/Input";
+import Counter from "../inputs/Counter";
+import ImageUpload from "../inputs/ImageUpload";
+import Input from "../inputs/Input";
 
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import dynamic from "next/dynamic";

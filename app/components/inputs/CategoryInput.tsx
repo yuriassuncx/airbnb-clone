@@ -9,7 +9,7 @@ interface CategoryInputProps {
   onClick: (value: string) => void;
 }
 
-export function CategoryInput({ icon: Icon, label, onClick, selected }: CategoryInputProps) {
+function CategoryInput({ icon: Icon, label, onClick, selected }: CategoryInputProps) {
   return (
     <div
       onClick={() => onClick(label)}
@@ -23,3 +23,5 @@ export function CategoryInput({ icon: Icon, label, onClick, selected }: Category
     </div>
   )
 }
+
+export default CategoryInput;

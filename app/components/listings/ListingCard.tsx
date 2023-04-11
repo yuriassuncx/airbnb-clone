@@ -7,7 +7,7 @@ import { SafeListing, SafeUser } from "@/app/types";
 import { useCountries } from "@/app/hooks/useCountries";
 
 import { HeartButton } from "../HeartButton";
-import { Button } from "../Button";
+import Button from "../Button";
 
 import { format } from 'date-fns';
 

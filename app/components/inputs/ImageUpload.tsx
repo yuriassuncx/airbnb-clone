@@ -15,7 +15,7 @@ interface ImageUploadProps {
   onChange: (value: string) => void;
 }
 
-export function ImageUpload({ value, onChange }: ImageUploadProps) {
+function ImageUpload({ value, onChange }: ImageUploadProps) {
   const handleUpload = useCallback((result: any) => {
     onChange(result.info.secure_url);
   }, [onChange]);
@@ -58,3 +58,5 @@ export function ImageUpload({ value, onChange }: ImageUploadProps) {
     </CldUploadWidget>
   )
 }
+
+export default ImageUpload;

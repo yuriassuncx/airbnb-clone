@@ -19,7 +19,7 @@ interface InputProps {
   errors: FieldErrors
 }
 
-export function Input({ 
+function Input({ 
   id,
   errors,
   label,
@@ -63,3 +63,5 @@ export function Input({
     </div>
   )
 }
+
+export default Input;

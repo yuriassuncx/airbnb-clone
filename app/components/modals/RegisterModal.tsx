@@ -5,8 +5,8 @@ import { useCallback, useState } from 'react';
 import Modal from './Modal';
 
 import { Heading } from '../Heading';
-import { Input } from '../inputs/Input';
-import { Button } from '../Button';
+import Input from '../inputs/Input';
+import Button from '../Button';
 
 import { 
   FieldValues,

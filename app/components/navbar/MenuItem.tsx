@@ -5,7 +5,7 @@ interface MenuItemProps {
   label: string;
 }
 
-export function MenuItem({ onClick, label }: MenuItemProps) {
+function MenuItem({ onClick, label }: MenuItemProps) {
   return (
     <div
       onClick={onClick}
@@ -15,3 +15,5 @@ export function MenuItem({ onClick, label }: MenuItemProps) {
     </div>
   )
 }
+
+export default MenuItem;
