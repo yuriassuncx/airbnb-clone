@@ -11,9 +11,9 @@ import CountrySelect from "../inputs/CountrySelect";
 import Counter from "../inputs/Counter";
 import ImageUpload from "../inputs/ImageUpload";
 import Input from "../inputs/Input";
+import Map from "../Map";
 
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
-import dynamic from "next/dynamic";
 
 import axios from "axios";
 import { toast } from "react-hot-toast";
@@ -64,11 +64,6 @@ function RentModal() {
   const roomCount = watch('roomCount');
   const bathroomCount = watch('bathroomCount');
   const imageSrc = watch('imageSrc');
-
-  const Map = dynamic(() => import('../Map').then((mod) => mod.default || mod), {
-    ssr: false,
-    loading: () => <p>Loading Map...</p>,
-  });
 
   const setCustomValue = (id: string, value: any) => {
     setValue(id, value, {
