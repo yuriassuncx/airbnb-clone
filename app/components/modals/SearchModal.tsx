@@ -40,9 +40,10 @@ function SearchModal() {
     key: 'selection'
   });
 
-  const Map = useMemo(() => dynamic(() => import('../Map'), { 
-    ssr: false 
-  }), [location]);
+  const Map = dynamic(() => import('../Map').then((mod) => mod.default || mod), {
+    ssr: false,
+    loading: () => <p>Loading Map...</p>,
+  });
 
   const onBack = useCallback(() => {
     setStep((value) => value - 1);
